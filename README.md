@@ -84,13 +84,16 @@ Copy code
 
 ## 📂 Project Structure
 
+```
 Smart-Solar-Cleaning-System/
-│── code/
-│ └── smart_solar_cleaning.ino
-│── images/
-│ ├── block-diagram.png
-│ └── Circuit-Diagram.png
-│── README.md
+├── code/
+│   └── smart_solar_cleaning.ino
+├── images/
+│   ├── block-diagram.png
+│   └── Circuit-Diagram.png
+└── README.md
+```
+
 
 
 ---
