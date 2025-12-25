@@ -91,9 +91,6 @@ Smart-Solar-Cleaning-System/
 │ └── Circuit-Diagram.png
 │── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Applications
