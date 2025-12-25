@@ -4,6 +4,8 @@
 ![Project](https://img.shields.io/badge/Project-IoT%20%7C%20Embedded-green)
 ![Status](https://img.shields.io/badge/Status-Working-success)
 
+---
+
 ## 📌 Overview
 The **Smart Solar Cleaning System** is an **automatic cleaning solution** designed to improve solar panel efficiency by detecting dust accumulation and cleaning the panel **only during daytime** using a water pump and wiper mechanism.
 
@@ -47,6 +49,16 @@ This system helps reduce manual effort, maintenance cost, and power loss caused 
 
 ---
 
+## 🧩 Block Diagram
+![Block Diagram](images/block-diagram.png)
+
+---
+
+## 🔌 Circuit Diagram
+![Circuit Diagram](images/Circuit-Diagram.png)
+
+---
+
 ## ✨ Features
 - Fully **automatic operation**
 - Daylight-based activation
@@ -57,18 +69,38 @@ This system helps reduce manual effort, maintenance cost, and power loss caused 
 
 ---
 
+## 🛠️ How to Run the Project
+1. Connect all components as per the **circuit diagram**
+2. Upload the Arduino code from:
+code/smart_solar_cleaning.ino
+
+yaml
+Copy code
+3. Power the system using 5V & 12V supply
+4. Place the dust sensor near the solar panel surface
+5. System will automatically start cleaning when dust is detected during daytime
+
+---
+
+## 📂 Project Structure
+Smart-Solar-Cleaning-System/
+│── code/
+│ └── smart_solar_cleaning.ino
+│── images/
+│ ├── block-diagram.png
+│ └── Circuit-Diagram.png
+│── README.md
+
+yaml
+Copy code
+
+---
+
 ## 🚀 Applications
 - Residential solar panels
 - Commercial solar plants
 - Industrial rooftop solar systems
 - Remote solar installations
-
----
-
-## 🛠️ Technology Stack
-- **Microcontroller:** Arduino UNO  
-- **Programming Language:** Arduino (C/C++)  
-- **Domain:** Embedded Systems / IoT  
 
 ---
 
@@ -83,8 +115,7 @@ This system helps reduce manual effort, maintenance cost, and power loss caused 
 
 ## 👨‍💻 Author
 **Nihir Sartanpara**  
-B.Tech IT Student  
-Embedded Systems & IoT Enthusiast
+Embedded Systems & IoT Enthusiast  
 
 ---
 
